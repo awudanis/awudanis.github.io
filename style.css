@@ -75,7 +75,7 @@ h1, h2, h3 {
 .nav-menu {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 32px;
     align-items: center;
 }
 
@@ -217,7 +217,7 @@ h1, h2, h3 {
 .projects-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 2.5rem;
+    gap: 40px;
     justify-content: center;
     margin-top: 3rem;
 }
@@ -307,11 +307,11 @@ h1, h2, h3 {
 .email-link {
     font-size: 1.4rem;
     color: var(--text-dark);
-    padding: 1.2rem 2.5rem;
+    padding: 20px 40px;
     border: 2px solid var(--text-dark);
     border-radius: 8px;
     display: inline-block;
-    transition: all 0.4s ease;
+    transition: 0.4s;
     font-weight: 300;
     letter-spacing: 0.5px;
 }

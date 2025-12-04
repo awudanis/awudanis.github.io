@@ -1,45 +1,117 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<header>
-<meta charset="UTF-8">
-<title>10.28 practice</title>
-<link href="styles.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js"></script>
-</header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alicia Wu - Sound Designer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h1>
-bye bye
-</h1>
-<p>
-  <h2>Meow</h2>
-  <hr />
-  <div>
-  <blockquote> <b><i><u> "meoooooooow" </u></i></b></blockquote>
-</div>
-  <br>
-  <div>
-  <a href="http://racheldevorah.studio"> my real website </a>
-  </div>
-   <br>
-  <div>
-  <img src="oprah.gif">
-</div>
-    <div>
-    <ul>
-		<li>beep</li>
-		<li>boop</li>
-		<li>bap</li>
-</ul>
-</div>
-<br>
-<div>
-  <audio controls> <source src="mtec343.mp3" type="audio/mpeg"></audio> <br>
-</div>
-<div>
-	    <script src="orbits.js"></script>
-	</div>
-</p>
+    <nav class="navbar">
+        <div class="nav-box">
+            <div class="nav-logo">
+                <a href="#home">Alicia Wu</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#demo-reel">Demo Reel</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="contact-btn">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="demo-reel" class="section demo-reel-section">
+            <div class="container">
+                <h2>Demo Reel</h2>
+                <div class="video-container">
+                    <video controls>
+                        <source src="demoreel_wu.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>
+                        I'm Alicia Wu, a sound designer studying Electronic Production and Design with a focus on Sound Design for Video Games at Berklee College of Music. I discovered my passion for game audio during my first game jam in high school, where I became fascinated by how sound can shape emotion, storytelling, and player experience. Since then, I've been dedicated to creating immersive soundscapes that bring virtual worlds to life.
+                    </p>
+                    <p>
+                        I work with industry standard tools such as Wwise, FMOD and Reaper to build interactive audio experiences for games and VR environments. Beyond sound design, I'm deeply interested in interdisciplinary art, which blends my favorite things (visuals, interactive media, immersive technologies). I also explore modular synthesis as part of my creative practice and outside the studio you'll often find me snowboarding.
+                    </p>
+                    <div class="skills-education">
+                        <h3>Skills & Education</h3>
+                        <ul>
+                            <li><strong>Education:</strong> Electronic Production and Design, Berklee College of Music</li>
+                            <li><strong>Specialization:</strong> Sound Design for Video Games</li>
+                            <li>
+                                <strong>Tools:</strong> Wwise, FMOD, Reaper, Python, C++, SQL, Logic, ProTools, Max/msp
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="aft_img.jpg" alt="Aftertaste project thumbnail">
+                        </div>
+                        <div class="project-info">
+                            <h3>Aftertaste</h3>
+                            <p>Student project in collaboration with USC</p>
+                            <a href="project-aftertaste.html" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="extensions_soil_img.jpg" alt="Extensions of Soil project thumbnail">
+                        </div>
+                        <div class="project-info">
+                            <h3>Extensions of Soil</h3>
+                            <p>A multichannel installation collaboration with MIT Media Lab.</p>
+                            <a href="project-extensions-soil.html" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="shoal_img.jpg" alt="Shoal project thumbnail">
+                        </div>
+                        <div class="project-info">
+                            <h3>Shoal</h3>
+                            <p>An exploration of human impacts on ocean ecosystems.</p>
+                            <a href="project-shoal.html" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>Interested in working together? Let's connect!</p>
+                <a href="mailto:aliciawudanis@gmail.com" class="email-link">aliciawudanis@gmail.com</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Alicia Wu. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
